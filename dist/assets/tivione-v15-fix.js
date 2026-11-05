@@ -1,0 +1,1 @@
+(()=>{if(!['home','pricing'].includes(location.pathname.replace(/^\/+|\/+$/g,'')||'home'))return;document.head.insertAdjacentHTML('beforeend','<style>.subscription-row-plans .plan .ticks li{padding:3px 0 3px 22px!important;line-height:1.38}.subscription-row-plans .plan .ticks li:before{left:0;top:3px}</style>')})();
